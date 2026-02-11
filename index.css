@@ -1,0 +1,6 @@
+div:has(> .check:checked) {
+    background-color: #35fc35;
+}
+.oculto {
+    display: none;
+}
