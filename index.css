@@ -1,6 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+
 div:has(> .check:checked) {
-    background-color: #35fc35;
+    background-color: black;
 }
 .oculto {
     display: none;
+}
+
+.contenedor {
+    background: linear-gradient(to bottom, black, rgb(90, 90, 90));
+    color: white;
+}
+.tarea {
+    display: flex;
+    padding: 4% 2%;
+    align-items: center;
+}
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 2%;
+}
+.contenido {
+    font-size: 1.5em;
+    font-family: monospace;
+    flex: 0 0 80%;
+}
+
+#nueva-tarea {
+    padding: 2%;
+    margin: 2% 0 0 2%;
+}
+.formulario-tarea input {
+    display: block;
+    padding: 2%;
+    margin: 2%;
+    -webkit-margin-collapse: collapse;
+}
+.formulario-tarea input[type="text"] {
+    width: 70%;
+}
+.formulario-tarea {
+    padding: 2%;
 }
